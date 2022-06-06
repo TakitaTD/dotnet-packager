@@ -9,4 +9,12 @@ Because I can't be fucked to make it in a different programming language.
 ## NOTES
 
 I only tested ./dotnet_packager in Linux, so, if you want to use this on Windows, it should be pretty self-explanatory:
-node ./main.js --{command}
+`node ./main.js --{command}`
+
+## Dependencies
+
+- node.js (obviously)
+- dotnet (obviously)
+- an operating system
+- a computer
+- a shell
