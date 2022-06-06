@@ -32,12 +32,6 @@ const RIDS = [
   "win-x86",
 ];
 if (process.argv[2]) {
-  if (process.argv[2] == "--build") build();
-  if (process.argv[2] == "--package") pkg();
-  if (process.argv[2] == "--both") {
-    build();
-    pkg();
-  }
   switch (process.argv[2]) {
     case "--package":
       pkg();
